@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/valyala/fasthttp"
+)
 
 func main() {
-	fmt.Print("Hello World")
+	fmt.Println("Go Web Assembly", fasthttp.StatusOK)
 }
